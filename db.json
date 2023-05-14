@@ -1,0 +1,114 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Taha Ebaed",
+      "role": "admin",
+      "email": "admin@exmaple.com",
+      "password": "password",
+      "vac": {
+        "pending": [""],
+        "rejected": [""],
+        "accepted": [""]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Taha Maeen",
+      "role": "user",
+      "email": "user@exmaple.com",
+      "password": "password",
+      "vac": {
+        "pending": [""],
+        "rejected": [""],
+        "accepted": [
+          {
+            "id": 1,
+            "title": "some comment",
+            "status": "accepted"
+          }
+        ]
+      }
+    }
+  ],
+  "vacations": [
+    {
+      "id": 1,
+      "title": "some comment",
+      "status": "accepted",
+      "employee": "taha"
+    },
+    {
+      "id": 2,
+      "title": "some comment",
+      "status": "pending",
+      "employee": "taha"
+    },
+    {
+      "id": 3,
+      "title": "some comment",
+      "status": "rejected",
+      "employee": "taha"
+    },
+    {
+      "id": 4,
+      "title": "some comment",
+      "status": "accepted",
+      "employee": "taha"
+    },
+    {
+      "id": 5,
+      "title": "some comment",
+      "status": "rejected",
+      "employee": "taha"
+    },
+    {
+      "id": 6,
+      "title": "some comment",
+      "status": "accepted",
+      "employee": "taha"
+    },
+    {
+      "id": 7,
+      "title": "some comment",
+      "status": "rejected",
+      "employee": "taha"
+    },
+    {
+      "id": 4,
+      "title": "some comment",
+      "status": "accepted",
+      "employee": "taha"
+    },
+    {
+      "id": 8,
+      "title": "some comment",
+      "status": "rejected",
+      "employee": "taha"
+    },
+    {
+      "id": 9,
+      "title": "some comment",
+      "status": "accepted",
+      "employee": "taha"
+    },
+    {
+      "id": 10,
+      "title": "some comment",
+      "status": "rejected",
+      "employee": "taha"
+    },
+    {
+      "id": 11,
+      "title": "some comment",
+      "status": "accepted",
+      "employee": "taha"
+    },
+    {
+      "id": 12,
+      "title": "some comment",
+      "status": "accepted",
+      "employee": "taha"
+    }
+  ]
+}
