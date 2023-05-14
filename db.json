@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Taha Ebaed",
       "role": "admin",
-      "email": "admin@exmaple.com",
+      "email": "admin@example.com",
       "password": "password",
       "vac": {
         "pending": [""],
@@ -16,7 +16,7 @@
       "id": 2,
       "name": "Taha Maeen",
       "role": "user",
-      "email": "user@exmaple.com",
+      "email": "user@example.com",
       "password": "password",
       "vac": {
         "pending": [""],
